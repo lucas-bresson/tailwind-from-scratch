@@ -55,9 +55,9 @@ export default function RootLayout({
             </Link>
             <Link
               className="flex-1 px-4 py-2 hover:font-medium hover:bg-teal-700"
-              href="/sandbox"
+              href="/projects/login-modal"
             >
-              Sandbox
+              Login
             </Link>
           </div>
         </menu>
