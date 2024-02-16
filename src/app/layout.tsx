@@ -22,27 +22,44 @@ export default function RootLayout({
           <h1 className="text-center pt-2 text-sm font-bold">
             Tailwind CSS From Scratch: Learn by doing Projects
           </h1>
-
-          <ul className="flex justify-around text-center">
-            <li className="flex-1 px-4 py-2 hover:font-medium hover:text-emerald-200 hover:bg-teal-700 ">
-              <Link href="/sandbox">Sandbox</Link>
-            </li>
-            <li className="flex-1 px-4 py-2 hover:font-medium hover:text-emerald-200 hover:bg-teal-700">
-              <Link href="/projects/email-subscribe">Newsletter</Link>
-            </li>
-            <li className="flex-1 px-4 py-2 hover:font-medium hover:text-emerald-200 hover:bg-teal-700">
-              <Link href="/projects/pricing-cards">Pricing</Link>
-            </li>
-            <li className="flex-1 px-4 py-2 hover:font-medium hover:text-emerald-200 hover:bg-teal-700">
-              <Link href="/sandbox">Sandbox</Link>
-            </li>
-            <li className="flex-1 px-4 py-2 hover:font-medium hover:text-emerald-200 hover:bg-teal-700">
-              <Link href="/sandbox">Sandbox</Link>
-            </li>
-            <li className="flex-1 px-4 py-2 hover:font-medium hover:text-emerald-200 hover:bg-teal-700">
-              <Link href="/sandbox">Sandbox</Link>
-            </li>
-          </ul>
+          <div className="flex justify-around text-center">
+            <Link
+              className="flex-1 px-4 py-2 hover:font-medium hover:bg-teal-700"
+              href="/sandbox"
+            >
+              Sandbox
+            </Link>
+            <Link
+              className="flex-1 px-4 py-2 hover:font-medium hover:bg-teal-700"
+              href="/projects/email-subscribe"
+            >
+              Newsletter
+            </Link>
+            <Link
+              className="flex-1 px-4 py-2 hover:font-medium hover:bg-teal-700"
+              href="/projects/pricing-cards"
+            >
+              Pricing
+            </Link>
+            <Link
+              className="flex-1 px-4 py-2 hover:font-medium hover:bg-teal-700"
+              href="/projects/product-modal"
+            >
+              Product
+            </Link>
+            <Link
+              className="flex-1 px-4 py-2 hover:font-medium hover:bg-teal-700"
+              href="/sandbox"
+            >
+              Sandbox
+            </Link>
+            <Link
+              className="flex-1 px-4 py-2 hover:font-medium hover:bg-teal-700"
+              href="/sandbox"
+            >
+              Sandbox
+            </Link>
+          </div>
         </menu>
         {children}
       </body>
