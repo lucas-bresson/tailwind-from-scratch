@@ -41,7 +41,7 @@ export default function Page() {
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                   <path d="M5 12l5 5l10 -10" />
                 </svg>
-                <span className="text-sm-ml-1">100 GB of storage</span>
+                <span className="text-sm ml-1">100 GB of storage</span>
               </div>
               {/* List Item 2 */}
               <div className="flex justify-center">
@@ -58,7 +58,7 @@ export default function Page() {
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                   <path d="M5 12l5 5l10 -10" />
                 </svg>
-                <span className="text-sm-ml-1">Option to add members</span>
+                <span className="text-sm ml-1">Option to add members</span>
               </div>
               {/* List Item 3 */}
               <div className="flex justify-center">
@@ -75,7 +75,7 @@ export default function Page() {
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                   <path d="M5 12l5 5l10 -10" />
                 </svg>
-                <span className="text-sm-ml-1">Extra member benefits</span>
+                <span className="text-sm ml-1">Extra member benefits</span>
               </div>
             </div>
           </div>
@@ -118,7 +118,7 @@ export default function Page() {
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                   <path d="M5 12l5 5l10 -10" />
                 </svg>
-                <span className="text-sm-ml-1">200 GB of storage</span>
+                <span className="text-sm ml-1">200 GB of storage</span>
               </div>
               {/* List Item 2 */}
               <div className="flex justify-center">
@@ -135,7 +135,7 @@ export default function Page() {
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                   <path d="M5 12l5 5l10 -10" />
                 </svg>
-                <span className="text-sm-ml-1">Option to add members</span>
+                <span className="text-sm ml-1">Option to add members</span>
               </div>
               {/* List Item 3 */}
               <div className="flex justify-center">
@@ -152,7 +152,7 @@ export default function Page() {
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                   <path d="M5 12l5 5l10 -10" />
                 </svg>
-                <span className="text-sm-ml-1">Extra member benefits</span>
+                <span className="text-sm ml-1">Extra member benefits</span>
               </div>
             </div>
           </div>
@@ -195,7 +195,7 @@ export default function Page() {
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                   <path d="M5 12l5 5l10 -10" />
                 </svg>
-                <span className="text-sm-ml-1">2 TB of storage</span>
+                <span className="text-sm ml-1">2 TB of storage</span>
               </div>
               {/* List Item 2 */}
               <div className="flex justify-center">
@@ -212,7 +212,7 @@ export default function Page() {
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                   <path d="M5 12l5 5l10 -10" />
                 </svg>
-                <span className="text-sm-ml-1">Option to add members</span>
+                <span className="text-sm ml-1">Option to add members</span>
               </div>
               {/* List Item 3 */}
               <div className="flex justify-center">
@@ -229,7 +229,7 @@ export default function Page() {
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                   <path d="M5 12l5 5l10 -10" />
                 </svg>
-                <span className="text-sm-ml-1">Extra member benefits</span>
+                <span className="text-sm ml-1">Extra member benefits</span>
               </div>
             </div>
           </div>
