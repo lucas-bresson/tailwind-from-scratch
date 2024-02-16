@@ -28,10 +28,10 @@ export default function RootLayout({
               <Link href="/sandbox">Sandbox</Link>
             </li>
             <li className="flex-1 px-4 py-2 hover:font-medium hover:text-emerald-200 hover:bg-teal-700">
-              <Link href="/projects/email-subscribe">Email-subscribe</Link>
+              <Link href="/projects/email-subscribe">Newsletter</Link>
             </li>
             <li className="flex-1 px-4 py-2 hover:font-medium hover:text-emerald-200 hover:bg-teal-700">
-              <Link href="/sandbox">Sandbox</Link>
+              <Link href="/projects/pricing-cards">Pricing</Link>
             </li>
             <li className="flex-1 px-4 py-2 hover:font-medium hover:text-emerald-200 hover:bg-teal-700">
               <Link href="/sandbox">Sandbox</Link>
