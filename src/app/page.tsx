@@ -9,7 +9,7 @@ export default function Home() {
           <li className="text-lg border border-blue-200 p-2 my-4">
             <Link
               className="text-blue-500 hover:text-blue-300"
-              href="projects/01-utility-first"
+              href="sandbox/01-utility-first/"
             >
               Utility First Example
             </Link>
@@ -17,7 +17,7 @@ export default function Home() {
           <li className="text-lg border border-blue-200 p-2 my-4">
             <Link
               className="text-blue-500 hover:text-blue-300"
-              href="projects/02-colors/"
+              href="sandbox/02-colors/"
             >
               Colors
             </Link>
@@ -25,7 +25,7 @@ export default function Home() {
           <li className="text-lg border border-blue-200 p-2 my-4">
             <Link
               className="text-blue-500 hover:text-blue-300"
-              href="projects/03-container-spacing/"
+              href="sandbox/03-container-spacing/"
             >
               Container & Spacing
             </Link>
@@ -33,7 +33,7 @@ export default function Home() {
           <li className="text-lg border border-blue-200 p-2 my-4">
             <Link
               className="text-blue-500 hover:text-blue-300"
-              href="projects/04-typography/"
+              href="sandbox/04-typography/"
             >
               Typography
             </Link>
@@ -41,7 +41,7 @@ export default function Home() {
           <li className="text-lg border border-blue-200 p-2 my-4">
             <Link
               className="text-blue-500 hover:text-blue-300"
-              href="projects/05-sizing/"
+              href="sandbox/05-sizing/"
             >
               Sizing
             </Link>
@@ -49,7 +49,7 @@ export default function Home() {
           <li className="text-lg border border-blue-200 p-2 my-4">
             <Link
               className="text-blue-500 hover:text-blue-300"
-              href="projects/06-layout-position/"
+              href="sandbox/06-layout-position/"
             >
               Layout & Position
             </Link>
@@ -57,7 +57,7 @@ export default function Home() {
           <li className="text-lg border border-blue-200 p-2 my-4">
             <Link
               className="text-blue-500 hover:text-blue-300"
-              href="projects/07-backgrounds-shadows/"
+              href="sandbox/07-backgrounds-shadows/"
             >
               Backgrounds & Shadows
             </Link>
@@ -65,7 +65,7 @@ export default function Home() {
           <li className="text-lg border border-blue-200 p-2 my-4">
             <Link
               className="text-blue-500 hover:text-blue-300"
-              href="projects/08-borders/"
+              href="sandbox/08-borders/"
             >
               Borders & Border Radius
             </Link>
@@ -73,7 +73,7 @@ export default function Home() {
           <li className="text-lg border border-blue-200 p-2 my-4">
             <Link
               className="text-blue-500 hover:text-blue-300"
-              href="projects/09-filters/"
+              href="sandbox/09-filters/"
             >
               Filters
             </Link>
@@ -81,7 +81,7 @@ export default function Home() {
           <li className="text-lg border border-blue-200 p-2 my-4">
             <Link
               className="text-blue-500 hover:text-blue-300"
-              href="projects/10-interactivity/"
+              href="sandbox/10-interactivity/"
             >
               Interactivity
             </Link>
@@ -89,7 +89,7 @@ export default function Home() {
           <li className="text-lg border border-blue-200 p-2 my-4">
             <Link
               className="text-blue-500 hover:text-blue-300"
-              href="projects/11-breakpoints/"
+              href="sandbox/11-breakpoints/"
             >
               Breakpoints
             </Link>
@@ -97,7 +97,7 @@ export default function Home() {
           <li className="text-lg border border-blue-200 p-2 my-4">
             <Link
               className="text-blue-500 hover:text-blue-300"
-              href="projects/12-columns/"
+              href="sandbox/12-columns/"
             >
               Column Layouts
             </Link>
@@ -105,7 +105,7 @@ export default function Home() {
           <li className="text-lg border border-blue-200 p-2 my-4">
             <Link
               className="text-blue-500 hover:text-blue-300"
-              href="projects/13-flex/"
+              href="sandbox/13-flex/"
             >
               Flexbox
             </Link>
@@ -113,7 +113,7 @@ export default function Home() {
           <li className="text-lg border border-blue-200 p-2 my-4">
             <Link
               className="text-blue-500 hover:text-blue-300"
-              href="projects/14-grid/"
+              href="sandbox/14-grid/"
             >
               Grid
             </Link>
@@ -121,7 +121,7 @@ export default function Home() {
           <li className="text-lg border border-blue-200 p-2 my-4">
             <Link
               className="text-blue-500 hover:text-blue-300"
-              href="projects/15-transform-transition/"
+              href="sandbox/15-transform-transition/"
             >
               Transform & Transitions
             </Link>
@@ -129,7 +129,7 @@ export default function Home() {
           <li className="text-lg border border-blue-200 p-2 my-4">
             <Link
               className="text-blue-500 hover:text-blue-300"
-              href="projects/16-animation/"
+              href="sandbox/16-animation/"
             >
               Animation
             </Link>
@@ -137,7 +137,7 @@ export default function Home() {
           <li className="text-lg border border-blue-200 p-2 my-4">
             <Link
               className="text-blue-500 hover:text-blue-300"
-              href="projects/17-customization/"
+              href="sandbox/17-customization/"
             >
               Customization & Config
             </Link>
@@ -145,7 +145,7 @@ export default function Home() {
           <li className="text-lg border border-blue-200 p-2 my-4">
             <Link
               className="text-blue-500 hover:text-blue-300"
-              href="projects/18-dark-mode/"
+              href="sandbox/18-dark-mode/"
             >
               Dark Mode
             </Link>
