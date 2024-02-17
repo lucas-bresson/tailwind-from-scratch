@@ -1,4 +1,5 @@
 import Image from "next/image";
+import img1 from "../../../../public/img1.jpg";
 
 export default function Page() {
   return (
@@ -22,9 +23,7 @@ export default function Page() {
       </button>
       <Image
         className="w-48 hover:rotate-180 hover:scale-75 hover:skew-x-12 transition duration-500"
-        src="/../../../../img1.jpg"
-        width={200}
-        height={200}
+        src={img1}
         alt=""
       />
     </div>

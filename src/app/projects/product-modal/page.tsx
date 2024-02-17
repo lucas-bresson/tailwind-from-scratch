@@ -1,4 +1,7 @@
 import Image from "next/image";
+import headphone from "../../../../public/headphone.png";
+import weight from "../../../../public/weight.png";
+import heart from "../../../../public/heart.png";
 
 export default function Page() {
   return (
@@ -7,10 +10,8 @@ export default function Page() {
         <div>
           <Image
             className="mx-auto duration-200 w-60 hover:scale-105"
-            src="/../../../../headphone.png"
-            width={500}
-            height={500}
-            alt=""
+            src={headphone}
+            alt="headphone"
           />
         </div>
         <div className="flex flex-col space-y-6">
@@ -41,23 +42,11 @@ export default function Page() {
             </div>
             <div className="flex flex-col space-y-4 md:space-y-0 md:space-x-4 md:flex-row">
               <button className="flex items-center justify-center py-3 px-5 space-x-3 border-2 border-gray-300 rounded-lg shadow-sm hover:bg-opacity-30 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-150">
-                <Image
-                  className="w-8"
-                  src="/../../../../weight.png"
-                  width={500}
-                  height={500}
-                  alt=""
-                />
+                <Image className="w-8" src={weight} alt="" />
                 <span>Add to cart</span>
               </button>
               <button className="flex items-center justify-center py-3 px-5 space-x-3 border-2 border-gray-300 rounded-lg shadow-sm hover:bg-opacity-30 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-150">
-                <Image
-                  className="w-8"
-                  src="/../../../../heart.png"
-                  width={500}
-                  height={500}
-                  alt=""
-                />
+                <Image className="w-8" src={heart} alt="" />
                 <span>Add to wishlist</span>
               </button>
             </div>

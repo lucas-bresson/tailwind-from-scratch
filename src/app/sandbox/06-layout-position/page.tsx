@@ -1,4 +1,5 @@
 import Image from "next/image";
+import img1 from "../../../../public/img1.jpg";
 
 export default function Page() {
   return (
@@ -78,17 +79,14 @@ export default function Page() {
 
       {/* Floats */}
       <div className="w-1/2">
-        <Image
-          className="float-left m-4"
-          src="/../../../../img1.jpg"
-          width={100}
-          height={100}
-          alt="img"
-        />
+        <Image className="float-left m-4" src={img1} alt="img" />
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam eum
-          illum deleniti reiciendis natus quasi earum a quas dolore. Totam quam
-          ex expedita nobis nisi illo delectus in. Perspiciatis, atque!
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab illo unde
+          similique quidem perferendis odio perspiciatis a totam obcaecati
+          voluptas veritatis minima molestiae maxime natus necessitatibus
+          incidunt esse in architecto expedita corrupti voluptates, sapiente
+          exercitationem, cumque sed. A, ipsam optio excepturi facere
+          voluptatibus autem sed! Voluptatibus sed ab ducimus. Placeat!
         </p>
       </div>
     </div>

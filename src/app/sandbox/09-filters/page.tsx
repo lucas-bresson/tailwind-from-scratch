@@ -1,4 +1,9 @@
 import Image from "next/image";
+import img1 from "../../../../public/img1.jpg";
+import img2 from "../../../../public/img2.jpg";
+import img3 from "../../../../public/img3.jpg";
+import img4 from "../../../../public/img4.jpg";
+import img5 from "../../../../public/img5.jpg";
 
 export default function Page() {
   return (
@@ -10,123 +15,33 @@ export default function Page() {
       <div className="blur">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, amet.
       </div>
-      <Image
-        className="blur"
-        src="/../../../../img1.jpg"
-        alt=""
-        width={300}
-        height={300}
-      />
+      <Image className="w-80 blur" src={img1} alt="" />
 
       {/* Brightness  */}
-      <Image
-        className="brightness-50"
-        src="/../../../../img2.jpg"
-        alt=""
-        width={300}
-        height={300}
-      />
-      <Image
-        className="brightness-75"
-        src="/../../../../img2.jpg"
-        alt=""
-        width={300}
-        height={300}
-      />
-      <Image
-        className="brightness-100"
-        src="/../../../../img2.jpg"
-        alt=""
-        width={300}
-        height={300}
-      />
-      <Image
-        className="brightness-200"
-        src="/../../../../img2.jpg"
-        alt=""
-        width={300}
-        height={300}
-      />
+      <Image className="w-80 brightness-50" src={img2} alt="" />
+      <Image className="w-80 brightness-75" src={img2} alt="" />
+      <Image className="w-80 brightness-100" src={img2} alt="" />
+      <Image className="w-80 brightness-200" src={img2} alt="" />
 
       {/* Contrast */}
-      <Image
-        className="contrast-0"
-        src="/../../../../img3.jpg"
-        alt=""
-        width={300}
-        height={300}
-      />
-      <Image
-        className="contrast-50"
-        src="/../../../../img3.jpg"
-        alt=""
-        width={300}
-        height={300}
-      />
-      <Image
-        className="contrast-100"
-        src="/../../../../img3.jpg"
-        alt=""
-        width={300}
-        height={300}
-      />
-      <Image
-        className="contrast-200"
-        src="/../../../../img3.jpg"
-        alt=""
-        width={300}
-        height={300}
-      />
+      <Image className="w-80 contrast-0" src={img3} alt="" />
+      <Image className="w-80 contrast-50" src={img3} alt="" />
+      <Image className="w-80 contrast-100" src={img3} alt="" />
+      <Image className="w-80 contrast-200" src={img3} alt="" />
 
       {/* Grayscale */}
-      <Image
-        className="grayscale"
-        src="/../../../../img4.jpg"
-        alt=""
-        width={300}
-        height={300}
-      />
+      <Image className="w-80 grayscale" src={img4} alt="" />
 
       {/* Invert */}
-      <Image
-        className="invert"
-        src="/../../../../img4.jpg"
-        alt=""
-        width={300}
-        height={300}
-      />
+      <Image className="w-80 invert" src={img4} alt="" />
 
       {/* Sepia */}
-      <Image
-        className="sepia"
-        src="/../../../../img4.jpg"
-        alt=""
-        width={300}
-        height={300}
-      />
+      <Image className="w-80 sepia" src={img4} alt="" />
 
       {/* Hue Rotate */}
-      <Image
-        className="hue-rotate-10"
-        src="/../../../../img5.jpg"
-        alt=""
-        width={300}
-        height={300}
-      />
-      <Image
-        className="hue-rotate-60"
-        src="/../../../../img5.jpg"
-        alt=""
-        width={300}
-        height={300}
-      />
-      <Image
-        className="hue-rotate-180"
-        src="/../../../../img5.jpg"
-        alt=""
-        width={300}
-        height={300}
-      />
+      <Image className="w-80 hue-rotate-10" src={img5} alt="" />
+      <Image className="w-80 hue-rotate-60" src={img5} alt="" />
+      <Image className="w-80 hue-rotate-180" src={img5} alt="" />
     </div>
   );
 }

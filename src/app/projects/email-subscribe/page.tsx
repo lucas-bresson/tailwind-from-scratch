@@ -1,4 +1,5 @@
 import Image from "next/image";
+import newsletter from "../../../../public/newsletter.jpg";
 
 export default function Page() {
   return (
@@ -11,9 +12,7 @@ export default function Page() {
           {/* Image */}
           <Image
             className="object-fit rounded-xl h-80 md:h-64 w-auto md:rounded-l-xl md:rounded-r-none transform hover:scale-105 hover:rounded-xl duration-200"
-            src="/../../../../newsletter.jpg"
-            width={500}
-            height={500}
+            src={newsletter}
             alt=""
           />
           {/* Content */}

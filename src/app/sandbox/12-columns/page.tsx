@@ -1,101 +1,33 @@
 import Image from "next/image";
+import img1 from "../../../../public/img1.jpg";
+import img2 from "../../../../public/img2.jpg";
+import img3 from "../../../../public/img3.jpg";
+import img4 from "../../../../public/img4.jpg";
 
 export default function Page() {
   return (
     <div>
       {/* Columns */}
       <div className="columns-4 gap-2">
-        <Image
-          className="w-full"
-          src="/../../../../img1.jpg"
-          width={200}
-          height={200}
-          alt=""
-        />
-        <Image
-          className="w-full"
-          src="/../../../../img2.jpg"
-          width={200}
-          height={200}
-          alt=""
-        />
-        <Image
-          className="w-full"
-          src="/../../../../img3.jpg"
-          width={200}
-          height={200}
-          alt=""
-        />
-        <Image
-          className="w-full"
-          src="/../../../../img4.jpg"
-          width={200}
-          height={200}
-          alt=""
-        />
+        <Image className="w-full" src={img1} alt="" />
+        <Image className="w-full" src={img2} alt="" />
+        <Image className="w-full" src={img3} alt="" />
+        <Image className="w-full" src={img4} alt="" />
       </div>
 
       <div className="columns-xs gap-2">
-        <Image
-          className="w-full"
-          src="/../../../../img1.jpg"
-          width={200}
-          height={200}
-          alt=""
-        />
-        <Image
-          className="w-full"
-          src="/../../../../img2.jpg"
-          width={200}
-          height={200}
-          alt=""
-        />
-        <Image
-          className="w-full"
-          src="/../../../../img3.jpg"
-          width={200}
-          height={200}
-          alt=""
-        />
-        <Image
-          className="w-full"
-          src="/../../../../img4.jpg"
-          width={200}
-          height={200}
-          alt=""
-        />
+        <Image className="w-full" src={img1} alt="" />
+        <Image className="w-full" src={img2} alt="" />
+        <Image className="w-full" src={img3} alt="" />
+        <Image className="w-full" src={img4} alt="" />
       </div>
 
       {/* Aspect Ratio */}
       <div className="columns-4">
-        <Image
-          className="w-full aspect-video"
-          src="/../../../../img1.jpg"
-          width={200}
-          height={200}
-          alt=""
-        />
-        <Image
-          className="w-full aspect-square"
-          src="/../../../../img2.jpg"
-          width={200}
-          height={200}
-          alt=""
-        />
-        <Image
-          className="w-full"
-          src="/../../../../img3.jpg"
-          width={200}
-          height={200}
-          alt=""
-        />
-        <Image
-          className="w-full aspect-video"
-          src="/../../../../img4.jpg"
-          width={200}
-          height={200}
-          alt=""
-        />
+        <Image className="w-full aspect-video" src={img1} alt="" />
+        <Image className="w-full aspect-square" src={img2} alt="" />
+        <Image className="w-full" src={img3} alt="" />
+        <Image className="w-full aspect-video" src={img4} alt="" />
       </div>
     </div>
   );

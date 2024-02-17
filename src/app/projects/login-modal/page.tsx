@@ -1,5 +1,8 @@
 import Image from "next/image";
 import { mulish, rokkitt } from "@/app/ui/fonts";
+import facebook from "../../../../public/facebook.png";
+import google from "../../../../public/google.png";
+import login from "../../../../public/login.jpg";
 
 export default function Page() {
   return (
@@ -47,34 +50,16 @@ export default function Page() {
           </p>
           <div className="flex flex-col space-x-o space-y-6 md:flex-row md:space-x-4 md:space-y-0">
             <button className="flex items-center justify-center py-2 space-x-3 border border-gray-300 rounded shadow-sm hover:bg-opacity-30 hover:shadow-lg hover:-translate-y-0.5 transition duration-150 md:w-1/2">
-              <Image
-                className="w-9"
-                src="/../../../../facebook.png"
-                width={32}
-                height={32}
-                alt="facebook"
-              />
+              <Image className="w-8 h-8" src={facebook} alt="facebook" />
               <span className="font-thin">Facebook</span>
             </button>
             <button className="flex items-center justify-center py-2 space-x-3 border border-gray-300 rounded shadow-sm hover:bg-opacity-30 hover:shadow-lg hover:-translate-y-0.5 transition duration-150 md:w-1/2">
-              <Image
-                className="w-9"
-                src="/../../../../google.png"
-                width={32}
-                height={32}
-                alt="google"
-              />
+              <Image className="w-8 h-8" src={google} alt="google" />
               <span className="font-thin">Google</span>
             </button>
           </div>
         </div>
-        <Image
-          className="w-[430px] hidden md:block"
-          src="/../../../../login.jpg"
-          width={500}
-          height={500}
-          alt=""
-        />
+        <Image className="w-[430px] hidden md:block" src={login} alt="" />
         <div className="group absolute -top-5 right-4 flex items-center justify-center w-10 h-10 bg-gray-200 rounded-full md:bg-white md:top-4 hover:cursor-pointer hover:-translate-y-0.5 transition duration-150">
           <svg
             xmlns="http://www.w3.org/2000/svg"

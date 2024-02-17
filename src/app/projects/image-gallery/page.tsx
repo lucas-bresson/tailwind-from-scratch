@@ -1,4 +1,11 @@
 import Image from "next/image";
+import image1 from "../../../../public/image1.jpg";
+import image2 from "../../../../public/image2.jpg";
+import image3 from "../../../../public/image3.jpg";
+import image4 from "../../../../public/image4.jpg";
+import image5 from "../../../../public/image5.jpg";
+import image6 from "../../../../public/image6.jpg";
+import bookmark from "../../../../public/bookmark.svg";
 
 export default function Page() {
   return (
@@ -52,12 +59,7 @@ export default function Page() {
         </div>
         <div className="grid gap-4 md:grid-cols-3">
           <div className="relative group">
-            <Image
-              src="/../../../../image1.jpg"
-              width={500}
-              height={500}
-              alt=""
-            />
+            <Image src={image1} alt="" />
             <div className="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40">
               <div className="flex justify-between w-full">
                 <div className="font-normal">
@@ -65,24 +67,14 @@ export default function Page() {
                   <p className="text-xs">245 Likes - 35 Shares</p>
                 </div>
                 <div className="flex items-center">
-                  <Image
-                    src="/../../../../bookmark.svg"
-                    width={28}
-                    height={28}
-                    alt="bookmark"
-                  />
+                  <Image src={bookmark} alt="bookmark" />
                 </div>
               </div>
             </div>
           </div>
 
           <div className="relative group">
-            <Image
-              src="/../../../../image2.jpg"
-              width={500}
-              height={500}
-              alt=""
-            />
+            <Image src={image2} alt="" />
             <div className="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40">
               <div className="flex justify-between w-full">
                 <div className="font-normal">
@@ -90,24 +82,14 @@ export default function Page() {
                   <p className="text-xs">245 Likes - 35 Shares</p>
                 </div>
                 <div className="flex items-center">
-                  <Image
-                    src="/../../../../bookmark.svg"
-                    width={28}
-                    height={28}
-                    alt="bookmark"
-                  />
+                  <Image src={bookmark} alt="bookmark" />
                 </div>
               </div>
             </div>
           </div>
 
           <div className="relative group">
-            <Image
-              src="/../../../../image3.jpg"
-              width={500}
-              height={500}
-              alt=""
-            />
+            <Image src={image3} alt="" />
             <div className="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40">
               <div className="flex justify-between w-full">
                 <div className="font-normal">
@@ -115,24 +97,14 @@ export default function Page() {
                   <p className="text-xs">245 Likes - 35 Shares</p>
                 </div>
                 <div className="flex items-center">
-                  <Image
-                    src="/../../../../bookmark.svg"
-                    width={28}
-                    height={28}
-                    alt="bookmark"
-                  />
+                  <Image src={bookmark} alt="bookmark" />
                 </div>
               </div>
             </div>
           </div>
 
           <div className="relative group">
-            <Image
-              src="/../../../../image4.jpg"
-              width={500}
-              height={500}
-              alt=""
-            />
+            <Image src={image4} alt="" />
             <div className="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40">
               <div className="flex justify-between w-full">
                 <div className="font-normal">
@@ -140,24 +112,14 @@ export default function Page() {
                   <p className="text-xs">245 Likes - 35 Shares</p>
                 </div>
                 <div className="flex items-center">
-                  <Image
-                    src="/../../../../bookmark.svg"
-                    width={28}
-                    height={28}
-                    alt="bookmark"
-                  />
+                  <Image src={bookmark} alt="bookmark" />
                 </div>
               </div>
             </div>
           </div>
 
           <div className="relative group">
-            <Image
-              src="/../../../../image5.jpg"
-              width={500}
-              height={500}
-              alt=""
-            />
+            <Image src={image5} alt="" />
             <div className="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40">
               <div className="flex justify-between w-full">
                 <div className="font-normal">
@@ -165,24 +127,14 @@ export default function Page() {
                   <p className="text-xs">245 Likes - 35 Shares</p>
                 </div>
                 <div className="flex items-center">
-                  <Image
-                    src="/../../../../bookmark.svg"
-                    width={28}
-                    height={28}
-                    alt="bookmark"
-                  />
+                  <Image src={bookmark} alt="bookmark" />
                 </div>
               </div>
             </div>
           </div>
 
           <div className="relative group">
-            <Image
-              src="/../../../../image6.jpg"
-              width={500}
-              height={500}
-              alt=""
-            />
+            <Image src={image6} alt="" />
             <div className="absolute bottom-0 left-0 right-0 p-2 px-4 text-white duration-500 bg-black opacity-0 group-hover:opacity-100 bg-opacity-40">
               <div className="flex justify-between w-full">
                 <div className="font-normal">
@@ -190,12 +142,7 @@ export default function Page() {
                   <p className="text-xs">245 Likes - 35 Shares</p>
                 </div>
                 <div className="flex items-center">
-                  <Image
-                    src="/../../../../bookmark.svg"
-                    width={28}
-                    height={28}
-                    alt="bookmark"
-                  />
+                  <Image src={bookmark} alt="bookmark" />
                 </div>
               </div>
             </div>
