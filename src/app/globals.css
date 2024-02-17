@@ -1,6 +1,28 @@
+/* import { baiJamjuree } from "@/app/ui/fonts"; */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.clipboard-section {
+  @apply max-w-6xl mx-auto text-center px-10;
+}
+
+.clipboard-h3 {
+  @apply mb-8 text-4xl font-bold text-darkGrayishBlue md:text-5xl;
+}
+
+.clipboard-h5 {
+  @apply mb-2 text-2xl font-bold text-darkGrayishBlue;
+}
+
+.clipboard-section-content {
+  @apply max-w-3xl mx-auto text-xl leading-9 text-center text-grayishBlue;
+}
+
+.clipboard-button-container {
+  @apply flex flex-col justify-center w-full space-y-6 text-xl text-white md:flex-row md:space-y-0 md:space-x-4;
+}
 
 /* @layer components {
   .btn-blue {

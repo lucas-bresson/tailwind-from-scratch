@@ -59,6 +59,12 @@ export default function RootLayout({
             >
               Login
             </Link>
+            <Link
+              className="flex-1 px-4 py-2 hover:font-medium hover:bg-teal-700"
+              href="/projects/clipboard"
+            >
+              Clipboard
+            </Link>
           </div>
         </menu>
         {children}
