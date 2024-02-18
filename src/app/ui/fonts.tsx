@@ -4,6 +4,8 @@ import {
   Mulish,
   Rokkitt,
   Bai_Jamjuree,
+  Josefin_Sans,
+  Alata,
 } from "next/font/google";
 
 export const inter = Inter({
@@ -25,5 +27,15 @@ export const rokkitt = Rokkitt({
 
 export const baiJamjuree = Bai_Jamjuree({
   weight: ["400", "700"],
+  subsets: ["latin"],
+});
+
+export const josefinSans = Josefin_Sans({
+  weight: ["300"],
+  subsets: ["latin"],
+});
+
+export const alata = Alata({
+  weight: ["400"],
   subsets: ["latin"],
 });

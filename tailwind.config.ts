@@ -20,6 +20,9 @@ const config: Config = {
       fontFamily: {
         sans: ["Bai Jamjuree", "sans-serif"],
       },
+      letterSpacing: {
+        widest: ".3em",
+      },
     },
   },
   darkMode: "class",
