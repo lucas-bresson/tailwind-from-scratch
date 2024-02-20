@@ -22,54 +22,60 @@ export default function RootLayout({
           <h1 className="text-center pt-2 text-sm font-bold">
             Tailwind CSS From Scratch: Learn by doing Projects
           </h1>
-          <div className="flex justify-around text-center text-xs md:text-sm">
+          <div className="flex justify-around text-center text-xxs sm:text-xs md:text-sm">
             <Link
-              className="flex-1 px-2 py-2 hover:font-medium hover:bg-teal-700 md:px-4"
+              className="flex-1 px-1 py-1 hover:font-medium hover:bg-teal-700 sm:px-2 sm:py-2 md:px-4"
               href="/sandbox"
             >
               Sandbox
             </Link>
             <Link
-              className="flex-1 px-2 py-2 hover:font-medium hover:bg-teal-700 md:px-4"
+              className="flex-1 px-1 py-1 hover:font-medium hover:bg-teal-700 sm:px-2 sm:py-2 md:px-4"
               href="/projects/email-subscribe"
             >
               Newsletter
             </Link>
             <Link
-              className="flex-1 px-2 py-2 hover:font-medium hover:bg-teal-700 md:px-4"
+              className="flex-1 px-1 py-1 hover:font-medium hover:bg-teal-700 sm:px-2 sm:py-2 md:px-4"
               href="/projects/pricing-cards"
             >
               Pricing
             </Link>
             <Link
-              className="flex-1 px-2 py-2 hover:font-medium hover:bg-teal-700 md:px-4"
+              className="flex-1 px-1 py-1 hover:font-medium hover:bg-teal-700 sm:px-2 sm:py-2 md:px-4"
               href="/projects/product-modal"
             >
               Product
             </Link>
             <Link
-              className="flex-1 px-2 py-2 hover:font-medium hover:bg-teal-700 md:px-4"
+              className="flex-1 px-1 py-1 hover:font-medium hover:bg-teal-700 sm:px-2 sm:py-2 md:px-4"
               href="/projects/image-gallery"
             >
               Gallery
             </Link>
             <Link
-              className="flex-1 px-2 py-2 hover:font-medium hover:bg-teal-700 md:px-4"
+              className="flex-1 px-1 py-1 hover:font-medium hover:bg-teal-700 sm:px-2 sm:py-2 md:px-4"
               href="/projects/login-modal"
             >
               Login
             </Link>
             <Link
-              className="flex-1 px-2 py-2 hover:font-medium hover:bg-teal-700 md:px-4"
+              className="flex-1 px-1 py-1 hover:font-medium hover:bg-teal-700 sm:px-2 sm:py-2 md:px-4"
               href="/projects/clipboard"
             >
               Clipboard
             </Link>
             <Link
-              className="flex-1 px-2 py-2 hover:font-medium hover:bg-teal-700 md:px-4"
+              className="flex-1 px-1 py-1 hover:font-medium hover:bg-teal-700 sm:px-2 sm:py-2 md:px-4"
               href="/projects/loopstudios"
             >
               Loopstudios
+            </Link>
+            <Link
+              className="flex-1 px-1 py-1 hover:font-medium hover:bg-teal-700 sm:px-2 sm:py-2 md:px-4"
+              href="/projects/shortly"
+            >
+              Shortly
             </Link>
           </div>
         </menu>

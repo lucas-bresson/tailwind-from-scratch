@@ -6,6 +6,7 @@ import {
   Bai_Jamjuree,
   Josefin_Sans,
   Alata,
+  Poppins,
 } from "next/font/google";
 
 export const inter = Inter({
@@ -37,5 +38,10 @@ export const josefinSans = Josefin_Sans({
 
 export const alata = Alata({
   weight: ["400"],
+  subsets: ["latin"],
+});
+
+export const poppins = Poppins({
+  weight: ["400", "500", "700"],
   subsets: ["latin"],
 });

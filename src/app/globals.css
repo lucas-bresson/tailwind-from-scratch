@@ -87,6 +87,11 @@
   .open .hamburger-bottom {
     transform: rotate(-45deg) translateY(6px) translateX(-6px);
   }
+
+  .ficon:hover {
+    filter: invert(79%) sepia(61%) saturate(464%) hue-rotate(130deg)
+      brightness(89%) contrast(85%);
+  }
 }
 
 .content-area {
