@@ -148,7 +148,7 @@ export default function Page() {
 
       {/* References Section */}
       <section id="references">
-        <div className="flex flex-col items-center justify-between max-w-6xl px-10 mx-auto space-y-16 my-44 md:flew-row md:space-y-0">
+        <div className="flex flex-col items-center justify-between max-w-6xl px-10 mx-auto space-y-16 my-44 md:flex-row md:space-y-0">
           <Image src={logoGoogle} alt="" />
           <Image src={logoIBM} alt="" />
           <Image src={logoMicrosoft} alt="" />

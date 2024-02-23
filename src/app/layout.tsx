@@ -77,6 +77,12 @@ export default function RootLayout({
             >
               Shortly
             </Link>
+            <Link
+              className="flex-1 px-1 py-1 hover:font-medium hover:bg-teal-700 sm:px-2 sm:py-2 md:px-4"
+              href="/projects/testimonial-grid"
+            >
+              Testimonial
+            </Link>
           </div>
         </menu>
         {children}

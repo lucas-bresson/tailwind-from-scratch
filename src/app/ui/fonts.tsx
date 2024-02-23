@@ -7,6 +7,7 @@ import {
   Josefin_Sans,
   Alata,
   Poppins,
+  Barlow_Semi_Condensed,
 } from "next/font/google";
 
 export const inter = Inter({
@@ -43,5 +44,10 @@ export const alata = Alata({
 
 export const poppins = Poppins({
   weight: ["400", "500", "700"],
+  subsets: ["latin"],
+});
+
+export const barlowSemiCondensed = Barlow_Semi_Condensed({
+  weight: ["400", "500", "600"],
   subsets: ["latin"],
 });

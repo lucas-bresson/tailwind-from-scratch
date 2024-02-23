@@ -26,9 +26,6 @@ const config: Config = {
         veryDarkBlue: "hsl(255, 11%, 22%)",
         veryDarkViolet: "hsl(260, 8%, 14%) ",
       },
-      fontFamily: {
-        sans: ["Bai Jamjuree", "sans-serif"],
-      },
       fontSize: {
         xxs: "0.5rem",
       },
