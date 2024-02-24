@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
+import ThemeClient from "./ui/ThemeProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,76 +18,84 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={inter.className}>
-        <menu className="bg-teal-800 text-slate-200 shadow-lg overflow-hidden">
-          <h1 className="text-center pt-2 text-sm font-bold">
-            Tailwind CSS From Scratch: Learn by doing Projects
-          </h1>
-          <div className="flex justify-around text-center text-xxs sm:text-xs md:text-sm">
-            <Link
-              className="flex-1 px-1 py-1 hover:font-medium hover:bg-teal-700 sm:px-2 sm:py-2 md:px-4"
-              href="/sandbox"
-            >
-              Sandbox
-            </Link>
-            <Link
-              className="flex-1 px-1 py-1 hover:font-medium hover:bg-teal-700 sm:px-2 sm:py-2 md:px-4"
-              href="/projects/email-subscribe"
-            >
-              Newsletter
-            </Link>
-            <Link
-              className="flex-1 px-1 py-1 hover:font-medium hover:bg-teal-700 sm:px-2 sm:py-2 md:px-4"
-              href="/projects/pricing-cards"
-            >
-              Pricing
-            </Link>
-            <Link
-              className="flex-1 px-1 py-1 hover:font-medium hover:bg-teal-700 sm:px-2 sm:py-2 md:px-4"
-              href="/projects/product-modal"
-            >
-              Product
-            </Link>
-            <Link
-              className="flex-1 px-1 py-1 hover:font-medium hover:bg-teal-700 sm:px-2 sm:py-2 md:px-4"
-              href="/projects/image-gallery"
-            >
-              Gallery
-            </Link>
-            <Link
-              className="flex-1 px-1 py-1 hover:font-medium hover:bg-teal-700 sm:px-2 sm:py-2 md:px-4"
-              href="/projects/login-modal"
-            >
-              Login
-            </Link>
-            <Link
-              className="flex-1 px-1 py-1 hover:font-medium hover:bg-teal-700 sm:px-2 sm:py-2 md:px-4"
-              href="/projects/clipboard"
-            >
-              Clipboard
-            </Link>
-            <Link
-              className="flex-1 px-1 py-1 hover:font-medium hover:bg-teal-700 sm:px-2 sm:py-2 md:px-4"
-              href="/projects/loopstudios"
-            >
-              Loopstudios
-            </Link>
-            <Link
-              className="flex-1 px-1 py-1 hover:font-medium hover:bg-teal-700 sm:px-2 sm:py-2 md:px-4"
-              href="/projects/shortly"
-            >
-              Shortly
-            </Link>
-            <Link
-              className="flex-1 px-1 py-1 hover:font-medium hover:bg-teal-700 sm:px-2 sm:py-2 md:px-4"
-              href="/projects/testimonial-grid"
-            >
-              Testimonial
-            </Link>
-          </div>
-        </menu>
-        {children}
-      </body>
+      <ThemeClient>
+        <body className={`${inter.className}`}>
+          <menu className="bg-teal-800 text-slate-200 shadow-lg overflow-hidden">
+            <h1 className="text-center pt-2 text-sm font-bold">
+              Tailwind CSS From Scratch: Learn by doing Projects
+            </h1>
+            <div className="flex justify-around text-center text-xxs sm:text-xs md:text-sm">
+              <Link
+                className="flex-1 px-1 py-1 hover:font-medium hover:bg-teal-700 sm:px-2 sm:py-2 md:px-4"
+                href="/sandbox"
+              >
+                Sandbox
+              </Link>
+              <Link
+                className="flex-1 px-1 py-1 hover:font-medium hover:bg-teal-700 sm:px-2 sm:py-2 md:px-4"
+                href="/projects/email-subscribe"
+              >
+                Newsletter
+              </Link>
+              <Link
+                className="flex-1 px-1 py-1 hover:font-medium hover:bg-teal-700 sm:px-2 sm:py-2 md:px-4"
+                href="/projects/pricing-cards"
+              >
+                Pricing
+              </Link>
+              <Link
+                className="flex-1 px-1 py-1 hover:font-medium hover:bg-teal-700 sm:px-2 sm:py-2 md:px-4"
+                href="/projects/product-modal"
+              >
+                Product
+              </Link>
+              <Link
+                className="flex-1 px-1 py-1 hover:font-medium hover:bg-teal-700 sm:px-2 sm:py-2 md:px-4"
+                href="/projects/image-gallery"
+              >
+                Gallery
+              </Link>
+              <Link
+                className="flex-1 px-1 py-1 hover:font-medium hover:bg-teal-700 sm:px-2 sm:py-2 md:px-4"
+                href="/projects/login-modal"
+              >
+                Login
+              </Link>
+              <Link
+                className="flex-1 px-1 py-1 hover:font-medium hover:bg-teal-700 sm:px-2 sm:py-2 md:px-4"
+                href="/projects/clipboard"
+              >
+                Clipboard
+              </Link>
+              <Link
+                className="flex-1 px-1 py-1 hover:font-medium hover:bg-teal-700 sm:px-2 sm:py-2 md:px-4"
+                href="/projects/loopstudios"
+              >
+                Loopstudios
+              </Link>
+              <Link
+                className="flex-1 px-1 py-1 hover:font-medium hover:bg-teal-700 sm:px-2 sm:py-2 md:px-4"
+                href="/projects/shortly"
+              >
+                Shortly
+              </Link>
+              <Link
+                className="flex-1 px-1 py-1 hover:font-medium hover:bg-teal-700 sm:px-2 sm:py-2 md:px-4"
+                href="/projects/testimonial-grid"
+              >
+                Testimonial
+              </Link>
+              <Link
+                className="flex-1 px-1 py-1 hover:font-medium hover:bg-teal-700 sm:px-2 sm:py-2 md:px-4"
+                href="/projects/fylo"
+              >
+                Fylo
+              </Link>
+            </div>
+          </menu>
+          {children}
+        </body>
+      </ThemeClient>
     </html>
   );
 }

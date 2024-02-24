@@ -7,6 +7,8 @@ import {
   Josefin_Sans,
   Alata,
   Poppins,
+  Open_Sans,
+  Raleway,
   Barlow_Semi_Condensed,
 } from "next/font/google";
 
@@ -49,5 +51,15 @@ export const poppins = Poppins({
 
 export const barlowSemiCondensed = Barlow_Semi_Condensed({
   weight: ["400", "500", "600"],
+  subsets: ["latin"],
+});
+
+export const raleway = Raleway({
+  weight: ["400", "700"],
+  subsets: ["latin"],
+});
+
+export const openSans = Open_Sans({
+  weight: ["400", "700"],
   subsets: ["latin"],
 });
