@@ -29,13 +29,11 @@ export default function Page() {
   }
 
   return (
-    <div
-      className={`dark:bg-darkBlue dark:text-white ${openSans.className} h-screen`}
-    >
-      <header className="container mx-auto mt-10 px-6 text-center h-40 md:h-20">
+    <div className={`dark:bg-darkBlue dark:text-white ${openSans.className}`}>
+      <header className="container mx-auto px-6 text-center h-40 md:h-20">
         {/* Dynamic Logo */}
-        <div className="bg-logo-light-mode dark:bg-logo-dark-mode bg-no-repeat h-20 w-48 mx-auto md:mx-0 md:absolute top-30 left-10" />
-        <div className="flex items-center justify-center space-x-4 md:space-x-10 md:absolute top-32 right-10">
+        <div className="bg-logo-light-mode dark:bg-logo-dark-mode bg-no-repeat h-20 w-48 mx-auto md:mx-0 md:absolute top-10 left-10" />
+        <div className="flex items-center justify-center space-x-4 md:space-x-10 md:absolute top-12 right-10">
           <a href="#features" className="hover:text-accentCyan">
             Features
           </a>
@@ -136,12 +134,11 @@ export default function Page() {
               <div className="flex items-center justify-center h-24 mb-6">
                 <Image src={iconCollaboration} alt="" />
               </div>
-              <h3 className="text-xl font-bold">
-                Access your file from anywhere
-              </h3>
+              <h3 className="text-xl font-bold">Collaborate with your peers</h3>
               <p className="max-w-md">
-                The ability to use a smartphone, tablet, or computer to access
-                your account means your files follow you everywhere.
+                Securely share files and folders with friends, family and
+                colleagues for live collaboration. No email attachments
+                required.
               </p>
             </div>
             {/* Item 4 */}
@@ -149,11 +146,13 @@ export default function Page() {
               <div className="flex items-center justify-center h-24 mb-6">
                 <Image src={iconAnyFile} alt="" />
               </div>
-              <h3 className="text-xl font-bold">Security you can trust</h3>
+              <h3 className="text-xl font-bold">
+                Secure all type of documents
+              </h3>
               <p className="max-w-md">
-                2-factor authentication and user-controlled encryption are just
-                a couple of the security features we allow to help secure your
-                files.
+                Whether you&apos;re sharing holidays photos or work documents,
+                Fylo has you covered allowing for all file types to be securely
+                stored and shared.
               </p>
             </div>
           </div>
@@ -187,14 +186,11 @@ export default function Page() {
             </div>
 
             {/* Link */}
-            <div className="block mt-4">
-              <a
-                href="#"
-                className="border-b border-accentCyan text-accentCyan"
-              >
-                See how Flyo works
-                <Image src={iconArrow} alt="" className="inline pb-2" />
+            <div className="flex flex-row items-center space-x-2 mt-4 border-b  border-accentCyan hover:cursor-pointer ">
+              <a href="#" className="text-accentCyan">
+                See how Fylo works
               </a>
+              <Image src={iconArrow} alt="" />
             </div>
           </div>
         </div>
@@ -325,7 +321,7 @@ export default function Page() {
                 <div className="w-6">
                   <Image src={iconPhone} alt="phone" className="scale-10" />
                 </div>
-                <div>+1-543-123-4567</div>
+                <div>+49 2134 567889</div>
               </div>
               <div className="flex items-center space-x-3">
                 <div className="w-6">
@@ -357,7 +353,7 @@ export default function Page() {
                   <Image
                     src={iconFacebook}
                     alt="facebook"
-                    className="p-2 bg-darkBlue rounded-full ficon"
+                    className="h-10 w-10 p-2 bg-darkBlue rounded-full ficon"
                   />
                 </a>
               </div>
@@ -366,7 +362,7 @@ export default function Page() {
                   <Image
                     src={iconTwitter}
                     alt="twitter"
-                    className="p-2 bg-darkBlue rounded-full ficon"
+                    className="h-10 w-10 p-2 bg-darkBlue rounded-full ficon"
                   />
                 </a>
               </div>
@@ -375,7 +371,7 @@ export default function Page() {
                   <Image
                     src={iconInstagram}
                     alt="instagram"
-                    className="p-2 bg-darkBlue rounded-full ficon"
+                    className="h-10 w-10 p-2 bg-darkBlue rounded-full ficon"
                   />
                 </a>
               </div>
