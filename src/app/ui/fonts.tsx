@@ -10,6 +10,7 @@ import {
   Open_Sans,
   Raleway,
   Barlow_Semi_Condensed,
+  Rubik,
 } from "next/font/google";
 
 export const inter = Inter({
@@ -61,5 +62,9 @@ export const raleway = Raleway({
 
 export const openSans = Open_Sans({
   weight: ["400", "700"],
+  subsets: ["latin"],
+});
+
+export const rubik = Rubik({
   subsets: ["latin"],
 });

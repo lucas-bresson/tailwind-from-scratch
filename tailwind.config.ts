@@ -33,19 +33,27 @@ const config: Config = {
         accentCyan: "hsl(176, 68%, 64%)",
         accentBlue: "hsl(198, 60%, 50%)",
         lightRed: "hsl(0, 100%, 63%)",
+        // bookmark
+        softBlue: "hsl(231, 69%, 60%)",
+        softRed: "hsl(0, 94%, 66%)",
+        grayishBlue2: "hsl(229, 8%, 60%)",
+        veryDarkBlue2: "hsl(229, 31%, 21%)",
       },
       fontSize: {
         xxs: "0.5rem",
       },
       letterSpacing: {
-        widest: ".3em",
+        doubleWide: ".2em",
+        tripleWide: ".3em",
       },
-      // fylo
       backgroundImage: (theme) => ({
+        // fylo
         "logo-dark-mode": "url('/../../../../fylo/logo-dark-mode.svg')",
         "logo-light-mode": "url('/../../../../fylo/logo-light-mode.svg')",
         "curvy-dark-mode": "url('/../../../../fylo/bg-curvy-dark-mode.svg')",
         "curvy-light-mode": "url('/../../../../fylo/bg-curvy-light-mode.svg')",
+        // bookmark
+        dots: "url('/../../../../bookmark/bg-dots.svg')",
       }),
     },
   },

@@ -18,8 +18,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <ThemeClient>
-        <body className={`${inter.className}`}>
+      <body className={`${inter.className}`}>
+        <ThemeClient>
           <menu className="bg-teal-800 text-slate-200 shadow-lg overflow-hidden">
             <h1 className="text-center pt-2 text-sm font-bold">
               Tailwind CSS From Scratch: Learn by doing Projects
@@ -91,11 +91,17 @@ export default function RootLayout({
               >
                 Fylo
               </Link>
+              <Link
+                className="flex-1 px-1 py-1 hover:font-medium hover:bg-teal-700 sm:px-2 sm:py-2 md:px-4"
+                href="/projects/bookmark"
+              >
+                Bookmark
+              </Link>
             </div>
           </menu>
           {children}
-        </body>
-      </ThemeClient>
+        </ThemeClient>
+      </body>
     </html>
   );
 }

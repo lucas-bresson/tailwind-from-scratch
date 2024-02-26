@@ -26,7 +26,7 @@
   }
 
   .loopstudios-button {
-    @apply px-10 py-2 my-0 font-bold tracking-widest uppercase border-2 border-black hover:bg-black hover:text-white;
+    @apply px-10 py-2 my-0 font-bold tracking-tripleWide uppercase border-2 border-black hover:bg-black hover:text-white;
   }
 
   .loopstudios-items-container {
