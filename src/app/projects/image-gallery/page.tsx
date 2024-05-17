@@ -32,7 +32,7 @@ export default function Page() {
         <div className="flex flex-col justify-between space-y-5 md:flex-row md:space-y-0">
           <div className="flex justify-between border-b">
             <input
-              className="ml-6 border-none md:w-80 placeholder:font-thin focus:outline-none"
+              className="ml-6 border-none md:w-80 placeholder:font-thin focus:outline-none placeholder:text-gray-600"
               type="text"
               placeholder="Search"
             />

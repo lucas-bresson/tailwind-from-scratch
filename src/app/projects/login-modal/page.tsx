@@ -25,7 +25,7 @@ export default function Page() {
           />
           <div className="flex flex-col items-center justify-between mt-6 space-y-6 md:flex-row md:space-y-0">
             <div className="font-thin text-cyan-700">Forgot password</div>
-            <button className="w-full md:w-auto flex justify-center items-center p-6 space-x-4 font-bold text-white rounded-md px-9 bg-cyan-700 shadow-cyan-100 hover:bg-opacity-90 shadow-sm hover:shadow-lg border transition hover:-translate-y-0.5 duration-150">
+            <button className="w-full md:w-auto flex justify-center items-center p-6 space-x-4 font-bold text-white rounded-md px-9 bg-strongCyan shadow-cyan-100 hover:bg-opacity-90 shadow-sm hover:shadow-lg border transition hover:-translate-y-0.5 duration-150">
               <span>Next</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -45,7 +45,7 @@ export default function Page() {
             </button>
           </div>
           <div className="mt-12 border-b border-b-gray-300"></div>
-          <p className="py-6 text-sm font-thin text-center text-gray-400">
+          <p className="py-6 text-sm font-thin text-center text-gray-600">
             or log in with
           </p>
           <div className="flex flex-col space-x-o space-y-6 md:flex-row md:space-x-4 md:space-y-0">
@@ -59,7 +59,11 @@ export default function Page() {
             </button>
           </div>
         </div>
-        <Image className="w-[430px] hidden md:block" src={login} alt="" />
+        <Image
+          className="w-[430px] hidden md:block rounded-r-2xl"
+          src={login}
+          alt=""
+        />
         <div className="group absolute -top-5 right-4 flex items-center justify-center w-10 h-10 bg-gray-200 rounded-full md:bg-white md:top-4 hover:cursor-pointer hover:-translate-y-0.5 transition duration-150">
           <svg
             xmlns="http://www.w3.org/2000/svg"
